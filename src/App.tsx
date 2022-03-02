@@ -18,6 +18,18 @@ function App(): JSX.Element {
           "https://www.google.com/maps/dir/24.8392762,67.0345444/badshahi+mosque+location+google+maps/@28.1586346,66.1963078,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x39191c9dbf0ddeb1:0x13bfcdb10fb490de!2m2!1d74.3107136!2d31.5879664"
         }
       />
+      <Main
+        image={"/images/dodarya.jpg"}
+        imagedesc={"Do Darya"}
+        title={"Do Darya"}
+        location={"Karachi, Pakistan"}
+        description={
+          "A calm, serene, peaceful restaurant on top of an ocean is a must visit place in Karachi, Pakistan."
+        }
+        link={
+          "https://www.google.com/maps?q=do+darya+location&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiO8bG0zaf2AhVTPcAKHY4bBlIQ_AUoAXoECAIQAw"
+        }
+      />
     </>
   );
 }
