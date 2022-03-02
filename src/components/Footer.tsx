@@ -4,7 +4,7 @@ function Footer(): JSX.Element {
       <p>
         This website is owned by Abdul. Want to checkout favorite places of my
         mates?{" "}
-        <a href="#" className="anchorformat">
+        <a href="https://www.google.com/" className="anchorformat">
           click here
         </a>
       </p>
