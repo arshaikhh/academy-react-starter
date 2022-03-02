@@ -4,17 +4,21 @@ import Main from "./components/Main";
 
 function App(): JSX.Element {
   return (
-  <>
-  <Header />
-  <Main
-  image={"/images/Badshahi-Mosque.jpg"}
-  imagedesc={"Badshahi Mosque"}
-  title={"Badshahi Mosque"}
-  location = {"Lahore, Pakistan"}
-  description={"The Badshahi Mosque is a Mughal-era congregational mosque in Lahore, capital of the Pakistani province of Punjab, Pakistan."}
-  link={"https://www.google.com/maps/dir/24.8392762,67.0345444/badshahi+mosque+location+google+maps/@28.1586346,66.1963078,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x39191c9dbf0ddeb1:0x13bfcdb10fb490de!2m2!1d74.3107136!2d31.5879664"}
-  />
-  </>
+    <>
+      <Header />
+      <Main
+        image={"/images/Badshahi-Mosque.jpg"}
+        imagedesc={"Badshahi Mosque"}
+        title={"Badshahi Mosque"}
+        location={"Lahore, Pakistan"}
+        description={
+          "The Badshahi Mosque is a Mughal-era congregational mosque in Lahore, capital of the Pakistani province of Punjab, Pakistan."
+        }
+        link={
+          "https://www.google.com/maps/dir/24.8392762,67.0345444/badshahi+mosque+location+google+maps/@28.1586346,66.1963078,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x39191c9dbf0ddeb1:0x13bfcdb10fb490de!2m2!1d74.3107136!2d31.5879664"
+        }
+      />
+    </>
   );
 }
 
