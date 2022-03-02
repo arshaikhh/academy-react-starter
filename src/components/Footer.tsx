@@ -1,6 +1,6 @@
 function Footer(): JSX.Element {
   return (
-    <footer className="Format">
+    <footer className="FooterFormat">
       <p>
         This website is owned by Abdul. Want to checkout favorite places of my
         mates?{" "}
