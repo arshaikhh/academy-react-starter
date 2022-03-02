@@ -1,0 +1,38 @@
+#Header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-family: 'Syne Mono', monospace;
+    width: auto;
+}
+
+.images {
+    width: 250px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    position:relative;
+    top:10px;
+}
+
+.Main {
+    /* background-color: rgb(199, 235, 199);
+    background-position: center; */
+    display:block;
+    box-shadow: 0 4px 8px 0 green;
+    width:auto;
+    height: auto;
+    justify-content: center;
+    background-color: rgb(239, 248, 239);
+    
+}
+
+.Format {
+    text-align: center;
+    font-family: 'Syne Mono', monospace;
+    color: rgb(1, 107, 1);
+    position: relative;
+    bottom: 10px;
+}
