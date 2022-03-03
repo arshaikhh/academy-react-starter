@@ -7,7 +7,7 @@ import Nav from "./components/Nav";
 
 const places = prop_arr.map(Main);
 // const navPlaces = Nav(prop_arr[0]);
-const navPlaces = prop_arr.map(Nav)
+const navPlaces = prop_arr.map(Nav);
 
 function App(): JSX.Element {
   return (

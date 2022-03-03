@@ -52,4 +52,3 @@ const prop4: Properties = {
 const prop_arr = [prop1, prop2, prop3, prop4];
 
 export default prop_arr;
-
