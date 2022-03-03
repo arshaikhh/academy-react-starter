@@ -30,6 +30,26 @@ const prop2: Properties = {
   link: "https://www.google.com/maps?q=do+darya+location&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiO8bG0zaf2AhVTPcAKHY4bBlIQ_AUoAXoECAIQAw",
 };
 
-const prop_arr = [prop1, prop2];
+const prop3: Properties = {
+  image: "/images/saifulmulook.jpg",
+  imagedesc: "Saif-ul-Mulukk",
+  title: "Saif-ul-Muluk",
+  location: { city: "Kaghan Valley", country: "Pakistan" },
+  description:
+    "A calm, beautiful, mountanious lake located at the Nothern ends of Pakistan.",
+  link: "https://www.google.com/maps/place/Saif-ul-Maluk+Lake,+Mansehra,+Khyber+Pakhtunkhwa,+Pakistan/data=!4m2!3m1!1s0x38e74dce84b9169d:0x7bfe611b2afdfc95?sa=X&ved=2ahUKEwio9oOArar2AhU3QUEAHS3JDggQ8gF6BAgCEAE",
+};
+
+const prop4: Properties = {
+  image: "/images/kashmir.jpg",
+  imagedesc: "Kashmir",
+  title: "Azad Kashmir",
+  location: { city: "Azad Kashmir", country: "Pakistan" },
+  description:
+    "This entire city is a valley, with beautiful mountains and lakes surrounding the area",
+  link: "https://www.google.com/maps/place/Azad+Jammu+and+Kashmir/@33.9423382,73.2079633,8z/data=!3m1!4b1!4m5!3m4!1s0x38e05a3fff50b093:0x2c2b41f6cac95d42!8m2!3d33.9259055!4d73.7810334",
+};
+const prop_arr = [prop1, prop2, prop3, prop4];
 
 export default prop_arr;
+
